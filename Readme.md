@@ -177,6 +177,7 @@ Aplicando la primera regla de Normalizacion se separaron los siguientes datos en
 |--|--|--|--|--|--|
 |ID_pais|integer|X||X|X|
 |Nombre_pais|varchar||||X|
+
 <br><br>
 *   Region
 
@@ -185,6 +186,7 @@ Aplicando la primera regla de Normalizacion se separaron los siguientes datos en
 |ID_region|integer|X||X|X|
 |Nombre_region|varchar||||X|
 |FK_ID_pais|integer||X|X|X|
+
 <br><br>
 *   Departamento
 
@@ -193,6 +195,7 @@ Aplicando la primera regla de Normalizacion se separaron los siguientes datos en
 |ID_departamento|integer|X||X|X|
 |Nombre_departamento|varchar||||X|
 |FK_ID_region|integer||X|X|X|
+
 <br><br>
 *   Municipio
 
@@ -201,6 +204,7 @@ Aplicando la primera regla de Normalizacion se separaron los siguientes datos en
 |ID_municipio|integer|X||X|X|
 |Nombre_municipio|varchar||||X|
 |FK_ID_departamento|integer||X|X|X|
+
 <br><br>
 *   Nombre_eleccion
 
@@ -218,6 +222,7 @@ Aplicando la primera regla de Normalizacion se separaron los siguientes datos en
 |ID_partidoPolitico|integer|X||X|X|
 |Partido|varchar||||X|
 |Nombre_partido|varchar||||X|
+
 <br><br>
 *   Sexo
 
@@ -233,6 +238,7 @@ Aplicando la primera regla de Normalizacion se separaron los siguientes datos en
 |--|--|--|--|--|--|
 |ID_raza|integer|X||X|X|
 |Nombre_raza|varchar||||X|
+
 <br><br>
 *   Eleccion
 
